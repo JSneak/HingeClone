@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        backgroundColor: 'white',
+        backgroundColor: '#F5F5F5',
     },
     namePlateText: {
         fontWeight: 'bold',
