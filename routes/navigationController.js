@@ -6,6 +6,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 import Likes from '../screens/likes';
 import { HomeStack } from './homeStack';
+import { StandoutsStack } from './standoutsStack'
 
 // import { MatchesStack } from './matchesStack';
 // import { SettingsStack } from './settingsStack';
@@ -41,7 +42,7 @@ export const Navigator = () => {
                 }}
             >
                 <Tab.Screen name="Discover" component={HomeStack} />
-                <Tab.Screen name="Standouts" component={Likes} />
+                <Tab.Screen name="Standouts" component={StandoutsStack} />
                 <Tab.Screen name="Likes" component={Likes} />
                 <Tab.Screen name="Matches" component={Likes} />
                 <Tab.Screen name="Settings" component={Likes} />
